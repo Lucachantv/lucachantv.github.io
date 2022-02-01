@@ -1,0 +1,167 @@
+body {
+    border:  none;
+    font-family: 'Cormorant', serif;
+    font-size: 25px;
+}
+.topwebsite {
+    padding-bottom: 200px;
+    background-color: #26364d ;
+}
+button {
+ background-color: #3882f6;
+ color: whitesmoke;
+ border: none;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+}
+
+
+ul {
+    display: block;
+}
+
+ol{
+    display: inline-block;
+}
+
+.header {
+    color: #f9faf8;
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+  
+}
+
+.links {
+    font-size: 18px;
+    color: white;
+    padding: 9px;
+    margin: 0 10px;
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+.intro {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.quotepage {
+    background-color: #e5e7eb;
+    padding: 300px;
+}
+.textleft{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+.headerleft {
+    display: flex;
+    justify-content: space-around;
+    color: #f9faf8;
+    align-items: center;
+    margin: 100px;
+    padding: 5px 300px 20px 300px;
+}
+ .bigcorgi {
+     max-height: 300px;
+     max-width: 500px;
+     padding-left: 100px;
+ }
+
+
+.corgi {
+    max-width: 210px;
+    max-height: 210px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    justify-content: space-between;
+    text-align: center;
+}
+.middlesite{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: flexbox;
+    padding-bottom: 200px;
+}
+.four_images{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.text{
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 20px ;
+}
+
+.quote{
+    font-size: 25px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.quotes{
+    padding-bottom: 100px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quotepage{
+    background-color: #e5e7eb;
+
+    color: #1f2937;
+    text-align: center;
+
+}
+
+.signup{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 600px;
+
+    
+}
+
+.calltoaction{
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 25px;
+    color: #f9faf8;
+}
+
+.sign{
+    border: 5px solid whitesmoke;
+    border-radius: 2px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
